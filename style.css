@@ -1,6 +1,27 @@
 #map {
   height: 500px;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  display: flex;
+  text-align: center;
 }
 #input-numero{
   width: 200px;
+}
+#insertMarkerInMap{
+  width: 200px;
+  height : 200px;
+  background-color: brown;
+  z-index: 999;
+  position: absolute;
+  background: url(http://maps.gstatic.com/mapfiles/markers2/marker.png) no-repeat;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  margin-left: -10px;
+  margin-top: -34px;
+  height: 34px;
+  width: 20px;
+  display : none;
 }
